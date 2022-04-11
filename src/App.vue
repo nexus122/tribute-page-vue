@@ -4,17 +4,18 @@
     <article class="info--article">
       <h1 id="title">Solanum tuberosum</h1>
       <h2>Llamada vulgarmente como patata</h2>
+      <hr/>
         <blockquote class="blockquote">
           <p class="mb-0">Es un error creer que cualquier problema importante puede solucionarse
           con ayuda de unas patatas.</p>
           <footer class="blockquote-footer"><cite title="Douglas Adams">Douglas Adams</cite></footer>
         </blockquote>
       <!-- Componente donde mostramos una imagen y un caption -->
-      <imgComponent name="Solanum tuberosum" imgUrl="https://s1.eestatic.com/2020/10/09/ciencia/nutricion/patatas-adelgazar-dieta_526958892_162156492_1024x576.jpg" caption="Sociedad compleja de tuberculos amigables."/>
+      <imgComponent name="Solanum tuberosum" imgUrl="https://s1.eestatic.com/2020/10/09/ciencia/nutricion/patatas-adelgazar-dieta_526958892_162156492_1024x576.jpg" caption="Sociedad compleja de tubérculos amigables."/>
     </article>
 
     <article class="list--article">
-      <h1>Variedad de patatas:</h1>
+      <h3>Variedad de patatas</h3>
       <!-- Lista de variedades de patata -->
       <cronoList :patataList="patataList"/>
 
@@ -23,8 +24,8 @@
     </article>
 
     <!-- Footer --> 
-    <footer>
-      <p>Si el conocimiento es tu pasion te dejo mas datos sobre estos amigables tuberculos <a id="tribute-link" href="https://es.wikipedia.org/wiki/Solanum_tuberosum" target="_blank"> Aqui</a></p>
+    <footer class="footer">
+      <p> Si quieres mas info sobre tubérculos, haz click <a id="tribute-link" href="https://es.wikipedia.org/wiki/Solanum_tuberosum" target="_blank"> Aquí</a></p>
     </footer>
     
 
@@ -57,23 +58,27 @@ export default {
   --color4: #401201;  
 }
 
-body{
-  background: linear-gradient(-45deg, var(--color1), var(--color2), var(--color3), var(--color4));
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
 }
 
-article{
-  background: var(--color1);
+
+.info--article{
   padding: 1em;
   box-sizing: border-box;
+  margin-bottom: 1em;
 }
 
-/* Añadmimos un poco de interlineado */
-.blockquote {
-    line-height: 2em;
+.footer{
+  padding: 1em;
+  font-size: 1.1em;  
 }
+
+/* Tratamos el bloquote para que no se nos pegue */
+footer.blockquote-footer {
+    margin-top: 0em;
+}
+
 
 /* Animaciones */
 @keyframes gradient {
