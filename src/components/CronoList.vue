@@ -1,6 +1,6 @@
 <template>
-  <ul v-for="patata in patataList" :key="patata.id">
-      <cronoItem :title="patata.name" :description="patata.description" :relevant="patata.relevant" />    
+  <ul>
+      <cronoItem v-for="patata in patataList" :key="patata.id" :title="patata.name" :description="patata.description" :relevant="patata.relevant" />    
   </ul>
 </template>
 
