@@ -1,0 +1,74 @@
+[
+    {
+        "id":0,
+        "name": "Amarilla",
+        "description": "Por su textura, rica en materia seca, se presta para puré. También se consume sancochada con salsas, al horno, envuelta en papel aluminio; o en un plato típico de Perú, denominado causa a la limeña. En Colombia es conocida como papa criolla o amarilla; se come cocida, frita, en puré, asada y en sancochos, es el ingrediente principal y característico del ajiaco santafereño, plato típico de Bogotá. En Venezuela se denomina papa colombiana.",
+        "relevant": true
+    },
+    {
+        "id":1,
+        "name": "Blanca",
+        "description": "Es la papa más consumida en el mundo debido a su facilidad y gran uso, además puede crecer en cualquier suelo. Su uso es múltiple y muy variado ya que también puede cumplir las mismas funciones de las otras variedades de papas, se usa principalmente en las papas fritas, agua de papa, harina de papa; pan de papa, aceite de papa. También se usa casi con frecuencia al igual que la papa rosada en la elaboración de la papa rellena; y también se puede usar al igual que la papa amarilla (aunque con menor frecuencia) en la elaboración de la causa y el puré. La función de esta papa no puede ser reemplazada por otra, debido a que existen ciertas comidas que solamente pueden hacerse con este tipo de papa, debido a que no poseen la misma facilidad; un claro ejemplo son las papas fritas (si se hacen con otro tipo de papa, el sabor y el resultado no es el mismo).",
+        "relevant": false
+    },
+    {
+        "id":2,
+        "name": "Canchán",
+        "description":"También llamada 'rosada' por el color de su piel. Sirve para el locro o la huatia, y es apropiada para preparar la papa rellena,. Esta variedad es resistente a la rancha y está adaptada a las condiciones de la Sierra Central, hasta 2700 msnm, y en la costa central del Perú.",
+        "relevant": false
+    },
+    {
+        "id":3,
+        "name":"Colorada",
+        "description":"Variedad de amplia difusión en las Islas Canarias; supone un contrapunto a la papa blanca de consumo típico en España. Se sirve habitualmente acompañada de salsas, como el mojo rojo, mojo picón o el mojo verde. Con esta papa se elabora el pipián. 'Papa colorada' es además uno de los nombres comunes de una raíz tuberosa andina conocida también como oca (Oxalis tuberosa).",
+        "relevant": false
+    },
+    {
+        "id":4,
+        "name":"Huamantanga",
+        "description":"Para muchos es la estrella de los tubérculos. Se produce solamente en la sierra peruana, por lo que su presencia en otros mercados es estacional. Tiene el color de la papa blanca pero la textura de la papa amarilla y se consume sancochada o en guisos. Una vez cocida, se pela con mucha facilidad.",
+        "relevant": false
+    },
+    {
+        "id":5,
+        "name":"Negra",
+        "description": "Con este nombre se conoce a la papa mariva, aunque también ha sido bautizada en los mercados como 'tomasa negra'. Esta papa es harinosa, ligeramente dulce y de sabor muy agradable. Se usa en casi todas las formas: guisada, sancochada, frita y en puré. Es ideal para hacer papa rellena porque se dora muy bien. Esta variedad ha encontrado también una notable difusión en las Islas Canarias, más concretamente en Tenerife, La Palma y La Gomera, aunque también ocasionalmente en las demás islas. Se presenta sobre todo en forma de 'papas arrugadas', es decir, papas cocinadas en agua con abundante sal, acompañadas de mojo picón (mojo rojo o colorado) o bien mojo de cilantro (mojo verde).",
+        "relevant": false
+    },
+    {
+        "id":6,
+        "name":"Perricholi",
+        "description":"Es muy parecida a la papa blanca y como ella, es dulce y llena de agua, por eso es indicada para freír. Las pollerías la prefieren porque no se oscurece una vez pelada y es la papa que se usa industrialmente. Este nombre fue dado en recuerdo de la actriz teatral limeña Micaela Villegas mal apodada la 'La Perricholi'.",
+        "relevant": false
+    },
+    {
+        "id":7,
+        "name": "Peruanita",
+        "description":"Papa de piel bicolor y extraordinario sabor. Es muy apropiada para hacerla hervida con sal y un toque de mantequilla. Si se quiere se la puede envolver en papel aluminio, pero mejor es sancocharla ya que por su cáscara delgada se puede comer tal cual.",
+        "relevant": false
+    },
+    {
+        "id":8,
+        "name": "Rosada",
+        "description": "También llamada norteña. Tiene la piel rosada, y su pulpa es parecida a la de la papa blanca. Se utiliza en la elaboración de la papa rellena, también se las puede consumir sancochadas, especialmente en la sopa.",
+        "relevant": false
+    },
+    {
+        "id":9,
+        "name":"Tarmeña",
+        "description": "Tiene la piel parecida a la peruanita pero su pulpa no es amarilla sino color crema. Usada habitualmente en la elaboración del plato causa a la limeña por su textura cremosa y aterciopelada. También queda muy bien al horno, asada y frita. Se la puede usar en el lomo saltado.",
+        "relevant": false
+    },
+    {
+        "id":10,
+        "name":"Tomasa",
+        "description": "Es una papa de ojos morados similar a la 'yungay', cuando su cáscara es un poco áspera es muy rica cuando se sancocha. Es una variedad que ya no se cultiva mucho, pero todavía se la puede hallar en zonas como los valles de Huancavelica y Ascensión.",
+        "relevant": true
+    },
+    {
+        "id":11,
+        "name": "Yungay",
+        "description": "Es una papa con una textura muy similar a la papa amarilla pero con una degradación mucho menor, puede mantenerse almacenada por mucho tiempo sin que se descomponga además de ser muy versátil en la cocina",
+        "relevant": false
+    }
+]
